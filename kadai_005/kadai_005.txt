@@ -1,0 +1,33 @@
+satakehiroto@FE-91-26-2F-15-0D ~ % mkdir git_challenge2
+satakehiroto@FE-91-26-2F-15-0D ~ % cd git_challenge2
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % git init
+Initialized empty Git repository in /Users/satakehiroto/git_challenge2/.git/
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % echo "Hello, World!" > hello_world.txt
+dquote>  
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % touch hello_world.txt
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % echo "Hello, World!" > hello_world.txt
+dquote> 
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % echo "Hello, World!" > hello_world.txt
+dquote>  
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % git add hello_world.txt
+
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % git commit -m "hello_world.txtを追加"                   
+[main (root-commit) 491c66a] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % git add hello_world.txt
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % git commit -m "日本語訳を追記"            
+[main 0de7c95] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+satakehiroto@FE-91-26-2F-15-0D git_challenge2 % git log
+commit 0de7c95ab0bfde5d6f747a7c5916de7b59fea2b2 (HEAD -> main)
+Author: HirotoSatake <hxmtb410@yahoo.co.jp>
+Date:   Mon Dec 2 22:31:42 2024 +0900
+
+    日本語訳を追記
+
+commit 491c66adde761767e07838b7f5a6deca10c7e39a
+Author: HirotoSatake <hxmtb410@yahoo.co.jp>
+Date:   Mon Dec 2 22:29:59 2024 +0900
+
+    hello_world.txtを追加
